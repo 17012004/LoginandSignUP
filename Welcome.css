@@ -1,0 +1,43 @@
+.welcome-container {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .welcome-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .welcome-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .welcome-buttons a {
+    text-decoration: none;
+  }
+  
+  .welcome-buttons button {
+    background-color: #ff9800;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .welcome-buttons button:hover {
+    background-color: #333;
+    color: white;
+  }
+  
