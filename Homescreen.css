@@ -1,0 +1,48 @@
+div {
+    background: linear-gradient(to right, #FF00FF, #FF4500); /* Gradient from Pink to OrangeRed */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #00FFFF; /* Cyan */
+    text-shadow: 2px 2px 4px #FF1493; /* DeepPink shadow */
+  }
+  
+  .Card {
+    margin-top: 20px;
+    background: #00FF00; /* Lime */
+    color: #FF4500; /* OrangeRed text color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Card.Header {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .Card.Description {
+    font-size: 18px;
+  }
+  
+  .Button {
+    margin-top: 20px;
+    background: #FFD700; /* Gold */
+    color: #8B4513; /* SaddleBrown text color */
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .Button:hover {
+    transform: scale(1.1); /* Scale the button on hover */
+    background: #FFA500; /* Orange color on hover */
+    color: #FFF; /* White text color on hover */
+  }
+  
